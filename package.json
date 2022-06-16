@@ -10,7 +10,9 @@
     "prepare": "tsc",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@raisa/bem-util": "file:"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
